@@ -176,58 +176,92 @@ const QDB=[
 
 /* ══ 🏛 역사 ════════════════════════════════ */
 // easy - 초1~3
-{c:'history',d:'easy',t:'🏛 역사',q:'우리나라 최초의 국가 이름은?',a:'고조선',h:'세 글자. 단군이 세웠어요'},
-{c:'history',d:'easy',t:'🏛 역사',q:'훈민정음을 만든 조선의 왕은?',a:'세종대왕',h:'네 글자. 집현전을 세웠어요'},
-{c:'history',d:'easy',t:'🏛 역사',q:'임진왜란에서 거북선을 이끈 장군은?',a:'이순신',h:'세 글자. 명량대첩 🚢'},
-{c:'history',d:'easy',t:'🏛 역사',q:'조선을 세운 인물은?',a:'이성계',h:'세 글자. 1392년 건국'},
-{c:'history',d:'easy',t:'🏛 역사',q:'독립운동가로 상하이에서 임시정부를 이끈 분은?',a:'김구',h:'두 글자. 백범이라는 호를 쓰셨어요'},
-{c:'history',d:'easy',t:'🏛 역사',q:'3.1운동이 일어난 해는?',a:'1919',h:'네 자리 연도. 독립선언 📜'},
-{c:'history',d:'easy',t:'🏛 역사',q:'세계 최초의 금속활자를 만든 나라는?',a:'고려',h:'두 글자. 우리나라 옛 왕조'},
-{c:'history',d:'easy',t:'🏛 역사',q:'한국 전쟁(6.25)이 발발한 해는?',a:'1950',h:'네 자리 연도'},
-{c:'history',d:'easy',t:'🏛 역사',q:'고구려, 백제, 신라를 통틀어 뭐라고 할까요?',a:'삼국',h:'三國. 두 글자'},
-{c:'history',d:'easy',t:'🏛 역사',q:'세계 4대 문명 중 이집트 문명이 발생한 강은?',a:'나일강',h:'세 글자. 아프리카 최장 강'},
-{c:'history',d:'easy',t:'🏛 역사',q:'고려를 건국한 사람은?',a:'왕건',h:'두 글자. 918년 건국'},
-{c:'history',d:'easy',t:'🏛 역사',q:'신라가 삼국을 통일한 때를?',a:'삼국통일',h:'네 글자. 676년 완성'},
-{c:'history',d:'easy',t:'🏛 역사',q:'우리나라 광복절은 몇 월 몇 일인가요?',a:'8월15일',h:'다섯 글자. 1945년 해방'},
-{c:'history',d:'easy',t:'🏛 역사',q:'우리나라가 일본에서 독립한 해는?',a:'1945',h:'네 자리 연도. 광복'},
-{c:'history',d:'easy',t:'🏛 역사',q:'단군이 고조선을 세운 날을 기리는 국경일은?',a:'개천절',h:'세 글자. 10월 3일'},
-{c:'history',d:'easy',t:'🏛 역사',q:'조선의 임금 중 《경국대전》을 완성한 임금은?',a:'성종',h:'두 글자. 조선의 9대 임금'},
-{c:'history',d:'easy',t:'🏛 역사',q:'이집트의 피라미드는 누가 만들었나요?',a:'파라오',h:'세 글자. 이집트의 왕 👑'},
-{c:'history',d:'easy',t:'🏛 역사',q:'콜럼버스가 아메리카 대륙을 발견한 해는?',a:'1492',h:'네 자리 연도. 스페인 탐험가'},
-{c:'history',d:'easy',t:'🏛 역사',q:'로마 제국의 유명한 검투사로 노예 반란을 이끈 인물은?',a:'스파르타쿠스',h:'여섯 글자. 영화로도 유명해요'},
-{c:'history',d:'easy',t:'🏛 역사',q:'만리장성을 처음 쌓은 중국의 황제는?',a:'진시황',h:'세 글자. 중국 최초 통일 황제'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'우리나라 최초의 국가 이름은?',a:'고조선',h:'세 글자. 단군이 세웠어요'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'훈민정음을 만든 조선의 왕은?',a:'세종대왕',h:'네 글자. 집현전을 세웠어요'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'임진왜란에서 거북선을 이끈 장군은?',a:'이순신',h:'세 글자. 명량대첩 🚢'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'조선을 세운 인물은?',a:'이성계',h:'세 글자. 1392년 건국'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'독립운동가로 상하이에서 임시정부를 이끈 분은?',a:'김구',h:'두 글자. 백범이라는 호를 쓰셨어요'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'3.1운동이 일어난 해는?',a:'1919',h:'네 자리 연도. 독립선언 📜'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'세계 최초의 금속활자를 만든 나라는?',a:'고려',h:'두 글자. 우리나라 옛 왕조'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'한국 전쟁(6.25)이 발발한 해는?',a:'1950',h:'네 자리 연도'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'고구려, 백제, 신라를 통틀어 뭐라고 할까요?',a:'삼국',h:'三國. 두 글자'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'세계 4대 문명 중 이집트 문명이 발생한 강은?',a:'나일강',h:'세 글자. 아프리카 최장 강'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'고려를 건국한 사람은?',a:'왕건',h:'두 글자. 918년 건국'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'신라가 삼국을 통일한 때를?',a:'삼국통일',h:'네 글자. 676년 완성'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'우리나라 광복절은 몇 월 몇 일인가요?',a:'8월15일',h:'다섯 글자. 1945년 해방'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'우리나라가 일본에서 독립한 해는?',a:'1945',h:'네 자리 연도. 광복'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'단군이 고조선을 세운 날을 기리는 국경일은?',a:'개천절',h:'세 글자. 10월 3일'},
+{c:'khistory',d:'easy',t:'🏛 한국사',q:'조선의 임금 중 《경국대전》을 완성한 임금은?',a:'성종',h:'두 글자. 조선의 9대 임금'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'이집트의 피라미드는 누가 만들었나요?',a:'파라오',h:'세 글자. 이집트의 왕 👑'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'콜럼버스가 아메리카 대륙을 발견한 해는?',a:'1492',h:'네 자리 연도. 스페인 탐험가'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'로마 제국의 유명한 검투사로 노예 반란을 이끈 인물은?',a:'스파르타쿠스',h:'여섯 글자. 영화로도 유명해요'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'만리장성을 처음 쌓은 중국의 황제는?',a:'진시황',h:'세 글자. 중국 최초 통일 황제'},
 // normal - 초4~6
-{c:'history',d:'normal',t:'🏛 역사',q:'동학농민운동을 이끈 인물은?',a:'전봉준',h:'세 글자. "녹두장군"'},
-{c:'history',d:'normal',t:'🏛 역사',q:'조선 성리학의 거두로 《성학십도》를 저술한 인물은?',a:'이황',h:'두 글자. 퇴계 선생'},
-{c:'history',d:'normal',t:'🏛 역사',q:'프랑스 대혁명이 일어난 해는?',a:'1789',h:'네 자리 연도. 바스티유 감옥 습격'},
-{c:'history',d:'normal',t:'🏛 역사',q:'조선 후기 실학을 집대성하고 《목민심서》를 쓴 인물은?',a:'정약용',h:'세 글자. 다산 선생'},
-{c:'history',d:'normal',t:'🏛 역사',q:'명성황후를 시해한 사건을?',a:'을미사변',h:'乙未事變. 네 글자. 1895년'},
-{c:'history',d:'normal',t:'🏛 역사',q:'마르크스와 함께 《공산당 선언》을 쓴 인물은?',a:'엥겔스',h:'세 글자. Friedrich Engels'},
-{c:'history',d:'normal',t:'🏛 역사',q:'신라 시대 화랑도의 규범 "세속오계"를 만든 승려는?',a:'원광',h:'두 글자. 원광법사'},
-{c:'history',d:'normal',t:'🏛 역사',q:'고구려, 백제, 신라 중 가장 먼저 건국된 나라는?',a:'고구려',h:'세 글자. BC 37년 건국'},
-{c:'history',d:'normal',t:'🏛 역사',q:'제1차 세계대전의 직접적 계기가 된 사건은?',a:'사라예보사건',h:'다섯 글자. 오스트리아 황태자 암살'},
-{c:'history',d:'normal',t:'🏛 역사',q:'조선의 붕당정치에서 퇴계 이황의 학파를 이은 당파는?',a:'남인',h:'南人. 두 글자'},
-{c:'history',d:'normal',t:'🏛 역사',q:'한글을 창제한 기관으로 세종이 세운 곳은?',a:'집현전',h:'集賢殿. 세 글자'},
-{c:'history',d:'normal',t:'🏛 역사',q:'임진왜란 때 의병을 일으킨 곽재우 장군의 별명은?',a:'홍의장군',h:'紅衣將軍. 네 글자. 빨간 옷'},
-{c:'history',d:'normal',t:'🏛 역사',q:'대한민국이 건국된 해는?',a:'1948',h:'네 자리 연도. 8월 15일 건국'},
-{c:'history',d:'normal',t:'🏛 역사',q:'2차 세계대전에서 히틀러가 이끈 독일의 정치 체제는?',a:'나치즘',h:'세 글자. Nazism'},
-{c:'history',d:'normal',t:'🏛 역사',q:'미국 독립선언서가 발표된 해는?',a:'1776',h:'네 자리 연도. 7월 4일'},
-{c:'history',d:'normal',t:'🏛 역사',q:'조선 시대 신분 제도의 최상층은?',a:'양반',h:'兩班. 두 글자'},
-{c:'history',d:'normal',t:'🏛 역사',q:'일제강점기 독립군이 청산리 전투를 승리로 이끈 해는?',a:'1920',h:'네 자리 연도. 김좌진 장군'},
-{c:'history',d:'normal',t:'🏛 역사',q:'세종대왕이 백성을 위해 만든 글자는?',a:'훈민정음',h:'訓民正音. 네 글자'},
-{c:'history',d:'normal',t:'🏛 역사',q:'조선 시대 성균관에서 시험을 통해 관리를 선발하는 제도는?',a:'과거제',h:'科擧制. 세 글자'},
-{c:'history',d:'normal',t:'🏛 역사',q:'고려가 몽골에 저항해 도읍을 옮긴 섬은?',a:'강화도',h:'세 글자. 서해 바다의 섬'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'동학농민운동을 이끈 인물은?',a:'전봉준',h:'세 글자. "녹두장군"'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'조선 성리학의 거두로 《성학십도》를 저술한 인물은?',a:'이황',h:'두 글자. 퇴계 선생'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'프랑스 대혁명이 일어난 해는?',a:'1789',h:'네 자리 연도. 바스티유 감옥 습격'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'조선 후기 실학을 집대성하고 《목민심서》를 쓴 인물은?',a:'정약용',h:'세 글자. 다산 선생'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'명성황후를 시해한 사건을?',a:'을미사변',h:'乙未事變. 네 글자. 1895년'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'마르크스와 함께 《공산당 선언》을 쓴 인물은?',a:'엥겔스',h:'세 글자. Friedrich Engels'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'신라 시대 화랑도의 규범 "세속오계"를 만든 승려는?',a:'원광',h:'두 글자. 원광법사'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'고구려, 백제, 신라 중 가장 먼저 건국된 나라는?',a:'고구려',h:'세 글자. BC 37년 건국'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'제1차 세계대전의 직접적 계기가 된 사건은?',a:'사라예보사건',h:'다섯 글자. 오스트리아 황태자 암살'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'조선의 붕당정치에서 퇴계 이황의 학파를 이은 당파는?',a:'남인',h:'南人. 두 글자'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'한글을 창제한 기관으로 세종이 세운 곳은?',a:'집현전',h:'集賢殿. 세 글자'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'임진왜란 때 의병을 일으킨 곽재우 장군의 별명은?',a:'홍의장군',h:'紅衣將軍. 네 글자. 빨간 옷'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'대한민국이 건국된 해는?',a:'1948',h:'네 자리 연도. 8월 15일 건국'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'2차 세계대전에서 히틀러가 이끈 독일의 정치 체제는?',a:'나치즘',h:'세 글자. Nazism'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'미국 독립선언서가 발표된 해는?',a:'1776',h:'네 자리 연도. 7월 4일'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'조선 시대 신분 제도의 최상층은?',a:'양반',h:'兩班. 두 글자'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'일제강점기 독립군이 청산리 전투를 승리로 이끈 해는?',a:'1920',h:'네 자리 연도. 김좌진 장군'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'세종대왕이 백성을 위해 만든 글자는?',a:'훈민정음',h:'訓民正音. 네 글자'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'조선 시대 성균관에서 시험을 통해 관리를 선발하는 제도는?',a:'과거제',h:'科擧制. 세 글자'},
+{c:'khistory',d:'normal',t:'🏛 한국사',q:'고려가 몽골에 저항해 도읍을 옮긴 섬은?',a:'강화도',h:'세 글자. 서해 바다의 섬'},
 // hard - 중1~2
-{c:'history',d:'hard',t:'🏛 역사',q:'흥선대원군의 쇄국정책을 상징하는 비석 이름은?',a:'척화비',h:'斥和碑. 세 글자'},
-{c:'history',d:'hard',t:'🏛 역사',q:'조선 전기 6조 직계제를 부활시켜 왕권을 강화한 왕은?',a:'태종',h:'두 글자. 이방원'},
-{c:'history',d:'hard',t:'🏛 역사',q:'병자호란 이후 청에 볼모로 잡혀간 왕은?',a:'소현세자',h:'네 글자. 인조의 아들'},
-{c:'history',d:'hard',t:'🏛 역사',q:'르네상스의 발원지로 불리는 이탈리아 도시는?',a:'피렌체',h:'세 글자. 메디치 가문의 도시'},
-{c:'history',d:'hard',t:'🏛 역사',q:'아편전쟁의 결과로 청이 영국에 할양한 섬은?',a:'홍콩',h:'두 글자. 2047년까지 반환 협약'},
-{c:'history',d:'hard',t:'🏛 역사',q:'조선 후기 북학파를 대표하는 실학자로 《열하일기》를 쓴 인물은?',a:'박지원',h:'세 글자. 연암 선생'},
-{c:'history',d:'hard',t:'🏛 역사',q:'임진왜란 이후 조선에서 일본으로 포로로 끌려간 도공들이 일본에서 발전시킨 것은?',a:'도자기',h:'陶瓷器. 세 글자'},
-{c:'history',d:'hard',t:'🏛 역사',q:'고려 무신정변에서 최씨 무신정권을 수립한 인물은?',a:'최충헌',h:'세 글자. 최씨 집권의 시작'},
-{c:'history',d:'hard',t:'🏛 역사',q:'1894년 갑오개혁을 주도한 기구는?',a:'군국기무처',h:'다섯 글자. 갑오개혁의 중심 기구'},
-{c:'history',d:'hard',t:'🏛 역사',q:'마틴 루터가 종교개혁을 시작한 문서는?',a:'95개조반박문',h:'여섯 글자. 1517년 발표'},
+{c:'khistory',d:'hard',t:'🏛 한국사',q:'흥선대원군의 쇄국정책을 상징하는 비석 이름은?',a:'척화비',h:'斥和碑. 세 글자'},
+{c:'khistory',d:'hard',t:'🏛 한국사',q:'조선 전기 6조 직계제를 부활시켜 왕권을 강화한 왕은?',a:'태종',h:'두 글자. 이방원'},
+{c:'khistory',d:'hard',t:'🏛 한국사',q:'병자호란 이후 청에 볼모로 잡혀간 왕은?',a:'소현세자',h:'네 글자. 인조의 아들'},
+{c:'whistory',d:'hard',t:'🌍 세계사',q:'르네상스의 발원지로 불리는 이탈리아 도시는?',a:'피렌체',h:'세 글자. 메디치 가문의 도시'},
+{c:'whistory',d:'hard',t:'🌍 세계사',q:'아편전쟁의 결과로 청이 영국에 할양한 섬은?',a:'홍콩',h:'두 글자. 2047년까지 반환 협약'},
+{c:'khistory',d:'hard',t:'🏛 한국사',q:'조선 후기 북학파를 대표하는 실학자로 《열하일기》를 쓴 인물은?',a:'박지원',h:'세 글자. 연암 선생'},
+{c:'khistory',d:'hard',t:'🏛 한국사',q:'임진왜란 이후 조선에서 일본으로 포로로 끌려간 도공들이 일본에서 발전시킨 것은?',a:'도자기',h:'陶瓷器. 세 글자'},
+{c:'khistory',d:'hard',t:'🏛 한국사',q:'고려 무신정변에서 최씨 무신정권을 수립한 인물은?',a:'최충헌',h:'세 글자. 최씨 집권의 시작'},
+{c:'khistory',d:'hard',t:'🏛 한국사',q:'1894년 갑오개혁을 주도한 기구는?',a:'군국기무처',h:'다섯 글자. 갑오개혁의 중심 기구'},
+{c:'whistory',d:'hard',t:'🌍 세계사',q:'마틴 루터가 종교개혁을 시작한 문서는?',a:'95개조반박문',h:'여섯 글자. 1517년 발표'},
+
+/* ══ 🌍 세계사 추가 문제 ══ */
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'로마 제국의 첫 황제는?',a:'아우구스투스',h:'여섯 글자. 옥타비아누스라고도 해요'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'그리스 신화의 최고신은?',a:'제우스',h:'세 글자. 올림포스의 신'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'중세 유럽에서 십자군 전쟁이 일어난 이유는?',a:'성지탈환',h:'네 글자. 예루살렘을 되찾으려 했어요'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'중국 춘추전국 시대에 사상을 펼친 학자들을 묶어 부르는 말은?',a:'제자백가',h:'네 글자. 여러 학파'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'마하트마 간디가 이끈 운동은?',a:'비폭력운동',h:'다섯 글자. 인도 독립운동'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'제2차 세계대전이 시작된 해는?',a:'1939',h:'네 자리 연도. 독일의 폴란드 침공'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'고대 그리스에서 올림픽이 열린 도시는?',a:'올림피아',h:'네 글자. 제우스 신전이 있던 곳'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'미국 남북전쟁에서 노예 해방을 선언한 대통령은?',a:'링컨',h:'두 글자. Abraham Lincoln'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'중국에서 종이를 발명한 것으로 알려진 인물은?',a:'채륜',h:'두 글자. 한나라 때'},
+{c:'whistory',d:'easy',t:'🌍 세계사',q:'산업혁명이 처음 시작된 나라는?',a:'영국',h:'두 글자. 18세기 후반'},
+
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'제1차 세계대전에서 맞선 두 동맹은 삼국동맹과 무엇인가요?',a:'삼국협상',h:'네 글자. 영·프·러가 중심'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'고대 로마의 대표적인 원형 경기장은?',a:'콜로세움',h:'네 글자. 검투 경기가 열렸어요'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'몽골 제국을 세운 인물은?',a:'칭기즈칸',h:'다섯 글자. 테무진'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'바다 항로 개척으로 희망봉을 돌아 인도에 도착한 포르투갈 탐험가는?',a:'바스코다가마',h:'여섯 글자. 1498년'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'르네상스 시대 "모나리자"를 그린 화가는?',a:'레오나르도다빈치',h:'아홉 글자. 이탈리아'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'프랑스 혁명 때 시민들이 습격한 감옥은?',a:'바스티유',h:'네 글자. 상징적 사건'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'러시아 혁명으로 탄생한 체제는 소비에트 연방, 줄여서?',a:'소련',h:'두 글자. USSR'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'제2차 세계대전 종전 후 설립된 국제 평화 기구는?',a:'UN',h:'두 글자 영어. 국제연합'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'미국이 독립하기 전 식민 지배를 했던 나라는?',a:'영국',h:'두 글자. 13개 식민지'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'대항해 시대에 마젤란이 이끈 최초의 무엇 항해인가요?',a:'세계일주',h:'네 글자. 지구를 한 바퀴'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'고대 이집트 문자의 이름은?',a:'상형문자',h:'네 글자. 히에로글리프'},
+{c:'whistory',d:'normal',t:'🌍 세계사',q:'냉전 시대 미국과 소련이 경쟁한 군비 경쟁을 뭐라고 하나요?',a:'핵경쟁',h:'세 글자. 핵무기 경쟁'},
+
+{c:'whistory',d:'hard',t:'🌍 세계사',q:'베르사유 조약은 어느 전쟁의 강화조약인가요?',a:'제1차세계대전',h:'일곱 글자. 독일에 배상금'},
+{c:'whistory',d:'hard',t:'🌍 세계사',q:'나폴레옹이 최종적으로 패배한 전투는?',a:'워털루전투',h:'다섯 글자. 1815년'},
+{c:'whistory',d:'hard',t:'🌍 세계사',q:'청과 일본이 조선 문제로 맞붙은 전쟁은?',a:'청일전쟁',h:'네 글자. 1894년'},
+{c:'whistory',d:'hard',t:'🌍 세계사',q:'독일 통일을 주도한 프로이센의 재상은?',a:'비스마르크',h:'다섯 글자. 철혈재상'},
+{c:'whistory',d:'hard',t:'🌍 세계사',q:'16세기 종교개혁에서 가톨릭 개혁을 추진한 운동은?',a:'반종교개혁',h:'다섯 글자. 예수회 활동'},
+{c:'whistory',d:'hard',t:'🌍 세계사',q:'미국에서 인종 분리 정책에 반대해 "I Have a Dream" 연설을 한 인물은?',a:'마틴루터킹',h:'여섯 글자. 시민권 운동'},
+{c:'whistory',d:'hard',t:'🌍 세계사',q:'고대 그리스의 직접 민주정이 발달한 도시는?',a:'아테네',h:'세 글자. 폴리스'},
+{c:'whistory',d:'hard',t:'🌍 세계사',q:'중국 명·청 교체기에 반란을 이끈 인물로 청의 입관 계기가 된 세력은?',a:'이자성',h:'세 글자. 농민 반란'},
 /* ═══════════════════════════════════════════════════
    🏛 한국사 200문제 추가 DB
    script.js의 QDB 배열에 붙여넣기 하세요 (마지막 } 앞에)
@@ -2045,6 +2079,14 @@ const QDB=[
 
 ];
 
+const _kHistoryHintRe=/(우리나라|조선|고조선|고구려|백제|신라|고려|대한민국|독립|광복|임진왜란|이순신|세종|훈민정음|한글|삼국|삼일운동|3\.1|갑오개혁|을미사변|동학농민|청산리|성균관|과거제|경국대전|양반|척화비|소현세자|박지원|정약용|전봉준|이황|원광|강화도)/;
+QDB.forEach(q=>{
+  if(q.c!=='history') return;
+  const isK= (q.t&&q.t.includes('한국사')) || _kHistoryHintRe.test(q.q) || _kHistoryHintRe.test(q.a);
+  q.c=isK?'khistory':'whistory';
+  if(q.t==='🏛 역사') q.t=isK?'🏛 한국사':'🌍 세계사';
+});
+
 /* ═══════════════════════════════════════════════════
    상태 변수
 ═══════════════════════════════════════════════════ */
@@ -2052,6 +2094,8 @@ let qs=[], score=0, solved=0, skipped=0, hintCnt=0, combo=0, maxCombo=0, totalSo
 let curCat='all', curDiff='easy';
 let timerOn=false, tick=null, elapsed=0, started=false;
 let usedSet=new Set();
+const ROUND_SIZE=10;
+const TA_ROUND_SIZE=6;
 
 /* ═══ 타임어택 모드 ═══ */
 let taMode=false, taTime=60, taLeft=0, taTick=null, taSolved=0, taScore=0;
@@ -2095,7 +2139,6 @@ function startTA(){
   taTick=setInterval(()=>{
     taLeft--;
     updateTAUI();
-    if(taLeft<=10)
     if(taLeft<=0){ stopTA(); showTAResult(); }
   },1000);
 }
@@ -2122,7 +2165,7 @@ function showTAResult(){
   stopTimer();
   // 성적표 업데이트
   const cats=new Set(qs.map(q=>q.c));
-  cats.forEach(c=>{ reportData[c].games++; });
+  cats.forEach(c=>{ _rd(c).games++; });
   reportData['all'].games++;
 
   document.getElementById('ta-result-solved').textContent=taSolved;
@@ -2141,7 +2184,7 @@ function closeTAResult(skipNewGame=false){
 
 // 성적표 데이터 구조
 const CAT_NAMES={
-  all:'🌟 전체',korean:'📖 국어',math:'🔢 수학',history:'🏛 역사',
+  all:'🌟 전체',korean:'📖 국어',math:'🔢 수학',khistory:'🏛 한국사',whistory:'🌍 세계사',
   science:'🔬 과학',sports:'⚽ 스포츠',kpop:'🎤 연예/아이돌',
   general:'🧠 일반상식',nonsense:'😂 넌센스',moral:'🚦 공중도덕',
   driving:'🚗 운전면허',emergency:'🚑 응급처치',kids:'👶 어린이',
@@ -2149,6 +2192,10 @@ const CAT_NAMES={
 };
 let reportData={};
 Object.keys(CAT_NAMES).forEach(k=>{ reportData[k]={correct:0,wrong:0,skip:0,score:0,games:0}; });
+function _rd(c){
+  if(!reportData[c]) reportData[c]={correct:0,wrong:0,skip:0,score:0,games:0};
+  return reportData[c];
+}
 
 function setCat(c,btn){
   curCat=c;
@@ -2170,14 +2217,15 @@ function newGame(){
   document.getElementById('combo-line').textContent='';
   document.getElementById('prog').style.width='0%';
 
+  const roundSize=taMode?TA_ROUND_SIZE:ROUND_SIZE;
   let pool=QDB.filter(q=>(curCat==='all'||q.c===curCat)&&q.d===curDiff);
-  if(pool.length<4) pool=QDB.filter(q=>curCat==='all'||q.c===curCat);
+  if(pool.length===0) pool=QDB.filter(q=>curCat==='all'||q.c===curCat);
   if(pool.length===0) pool=[...QDB];
 
   let fresh=pool.filter(q=>!usedSet.has(q.q));
-  if(fresh.length<4){usedSet.clear();fresh=pool;}
+  if(fresh.length<roundSize){usedSet.clear();fresh=pool;}
 
-  qs=shuffle(fresh).slice(0,6);
+  qs=shuffle(fresh).slice(0,roundSize);
   qs.forEach(q=>usedSet.add(q.q));
   // 각 문제 상태 초기화
   qs.forEach(q=>{q._result=null; q._pts=0;});
@@ -2268,19 +2316,16 @@ function check(i){
     combo++; if(combo>maxCombo)maxCombo=combo;
     solved++; totalSolved++;
 
-    const hintUsed=document.getElementById('ht'+i).classList.contains('show');
-    const firstUsed=document.getElementById(`b${i}_0`).classList.contains('hinted');
     let pts=100;
-    if(hintUsed)pts-=30;
-    else if(firstUsed)pts-=15;
     if(combo>=3)pts+=Math.min((combo-2)*20,60);
     pts=Math.max(10,pts);
     score+=pts;
     q._result='correct'; q._pts=pts;
 
     // 성적표 업데이트
-    reportData[q.c].correct++;
-    reportData[q.c].score+=pts;
+    const d=_rd(q.c);
+    d.correct++;
+    d.score+=pts;
     reportData['all'].correct++;  // 항상 all에도 반영
     reportData['all'].score+=pts;
 
@@ -2303,7 +2348,7 @@ function check(i){
     card.classList.add('shake');
     setTimeout(()=>card.classList.remove('shake'),420);
     score=Math.max(0,score-5);
-    reportData[q.c].wrong=(reportData[q.c].wrong||0)+1;
+    _rd(q.c).wrong=(_rd(q.c).wrong||0)+1;
     reportData['all'].wrong=(reportData['all'].wrong||0)+1;
     fd.className='fb no';
     fd.textContent='틀렸어요! 넘기거나 힌트를 써보세요 😅';
@@ -2340,7 +2385,7 @@ function doSkip(i){
   q._result='skip'; q._pts=0;
 
   // 성적표 업데이트
-  reportData[q.c].skip++;
+  _rd(q.c).skip++;
   reportData['all'].skip++;
 
   updateStats(); updateProg();
@@ -2361,7 +2406,7 @@ function checkAllDone(){
     if(timerOn)stopTimer();
     // 성적표 게임 수 업데이트
     const cats=new Set(qs.map(q=>q.c));
-    cats.forEach(c=>{ reportData[c].games++; });
+    cats.forEach(c=>{ _rd(c).games++; });
     reportData['all'].games++;
     if(taMode){
       // 타임어택 중엔 모든 문제 풀면 자동으로 새 문제 로드
@@ -2376,10 +2421,11 @@ function checkAllDone(){
           document.getElementById('combo-line').textContent='';
           document.getElementById('prog').style.width='0%';
           let pool=QDB.filter(q=>(curCat==='all'||q.c===curCat)&&q.d===curDiff);
+          if(pool.length===0) pool=QDB.filter(q=>curCat==='all'||q.c===curCat);
           if(pool.length===0) pool=[...QDB];
           let fresh=pool.filter(q=>!usedSet.has(q.q));
-          if(fresh.length<4){usedSet.clear();fresh=pool;}
-          qs=shuffle(fresh).slice(0,6);
+          if(fresh.length<TA_ROUND_SIZE){usedSet.clear();fresh=pool;}
+          qs=shuffle(fresh).slice(0,TA_ROUND_SIZE);
           qs.forEach(q=>usedSet.add(q.q));
           qs.forEach(q=>{q._result=null;q._pts=0;});
           document.getElementById('tot').textContent=qs.length;
@@ -2514,13 +2560,15 @@ function showWin(){
   });
   document.getElementById('w-items').innerHTML=resultHtml;
 
+  const maxBase=qs.length*100;
+  const pct=maxBase>0?Math.round(score/maxBase*100):0;
   const ranks=[
-    [550,'🏆','완벽 클리어! 지식왕 👑'],
-    [400,'🌟','대단해요! 거의 완벽!'],
-    [250,'😊','좋아요! 꽤 잘 하셨어요!'],
+    [90,'🏆','완벽 클리어! 지식왕 👑'],
+    [70,'🌟','대단해요! 거의 완벽!'],
+    [45,'😊','좋아요! 꽤 잘 하셨어요!'],
     [0,'😅','다음엔 더 잘 할 수 있어요!']
   ];
-  const [,emo,rank]=ranks.find(([s])=>score>=s);
+  const [,emo,rank]=ranks.find(([p])=>pct>=p);
   document.getElementById('w-emo').textContent=emo;
   document.getElementById('w-rank').textContent=rank;
   document.getElementById('win-bg').classList.add('show');

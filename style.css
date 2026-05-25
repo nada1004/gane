@@ -1,5 +1,5 @@
 :root{
-  --bg:#f5f0e8;--card:#fff;
+  --bg:#fff0f6;--card:#fff;
   --sh:0 4px 18px rgba(80,55,20,.10);--sh2:0 8px 28px rgba(80,55,20,.16);
   --ac:#e8522a;--ac2:#d44420;--acl:#fff2ee;
   --am:#f5a623;--aml:#fff8e6;
@@ -14,8 +14,8 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Nanum Gothic',sans-serif;background:var(--bg);color:var(--tx);min-height:100vh}
 body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background:
-  radial-gradient(ellipse 70% 45% at 15% 0%,rgba(245,166,35,.12) 0%,transparent 60%),
-  radial-gradient(ellipse 55% 40% at 85% 100%,rgba(232,82,42,.08) 0%,transparent 60%)}
+  radial-gradient(ellipse 70% 45% at 15% 0%,rgba(236,72,153,.10) 0%,transparent 60%),
+  radial-gradient(ellipse 55% 40% at 85% 100%,rgba(244,63,94,.08) 0%,transparent 60%)}
 .wrap{position:relative;z-index:1;max-width:1020px;margin:0 auto;padding:0 16px 60px}
 
 header{text-align:center;padding:24px 0 12px}
@@ -35,6 +35,8 @@ header{text-align:center;padding:24px 0 12px}
 .pill.on-general  {background:#7c3aed;border-color:#7c3aed;color:#fff}
 .pill.on-nonsense {background:#db2777;border-color:#db2777;color:#fff}
 .pill.on-history  {background:#b45309;border-color:#b45309;color:#fff}
+.pill.on-khistory {background:#b45309;border-color:#b45309;color:#fff}
+.pill.on-whistory {background:#2563eb;border-color:#2563eb;color:#fff}
 .pill.on-sports   {background:#0f766e;border-color:#0f766e;color:#fff}
 .pill.on-kpop     {background:#7c3aed;border-color:#7c3aed;color:#fff}
 .pill.on-easy  {background:var(--gr);border-color:var(--gr);color:#fff}
@@ -85,6 +87,8 @@ header{text-align:center;padding:24px 0 12px}
 .stripe.general {background:linear-gradient(90deg,#7c3aed,#8b5cf6)}
 .stripe.nonsense{background:linear-gradient(90deg,#db2777,#ec4899)}
 .stripe.history {background:linear-gradient(90deg,#b45309,#d97706)}
+.stripe.khistory{background:linear-gradient(90deg,#b45309,#d97706)}
+.stripe.whistory{background:linear-gradient(90deg,#2563eb,#60a5fa)}
 .stripe.sports  {background:linear-gradient(90deg,#0f766e,#14b8a6)}
 .stripe.kpop    {background:linear-gradient(90deg,#7c3aed,#ec4899)}
 
@@ -96,6 +100,8 @@ header{text-align:center;padding:24px 0 12px}
 .num-badge.general {background:#7c3aed}
 .num-badge.nonsense{background:#db2777}
 .num-badge.history {background:#b45309}
+.num-badge.khistory{background:#b45309}
+.num-badge.whistory{background:#2563eb}
 .num-badge.sports  {background:#0f766e}
 .num-badge.kpop    {background:#7c3aed}
 .cat-tag{font-size:.68rem;color:var(--mu);background:var(--bg);padding:2px 8px;
@@ -231,7 +237,7 @@ header{text-align:center;padding:24px 0 12px}
 .w-item.skip .w-ans{color:#d97706}
 
 /* ── 성적표 버튼 ── */
-.report-btn{background:linear-gradient(135deg,#6366f1,#4f46e5)!important;margin-left:6px}
+.report-btn{background:linear-gradient(135deg,#2563eb,#1d4ed8)!important;color:#fff!important;border-color:#1d4ed8!important;margin-left:6px}
 
 /* ── 성적표 모달 ── */
 .modal-report{max-width:600px!important;width:95%!important;padding:24px 20px!important;text-align:left!important}
@@ -316,3 +322,37 @@ header{text-align:center;padding:24px 0 12px}
 
 /* ── MZ세대 카테고리 색상 ── */
 .pill[data-cat="mz"].on-mz,.num-badge.mz,.stripe.mz{background:linear-gradient(135deg,#f43f5e,#e11d48)}
+
+@media(max-width:520px){
+  .wrap{padding:0 12px 44px}
+  .logo{font-size:2rem}
+  .sub{font-size:.76rem;line-height:1.6}
+
+  #cat-row{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;padding:2px 2px 6px}
+  #cat-row .pill{flex:0 0 auto}
+
+  .stats-row{gap:6px}
+  .chip{padding:5px 10px;font-size:.76rem}
+  .chip b{font-size:1.06rem}
+
+  .timer-row{flex-wrap:wrap;gap:7px}
+  .tbtn{flex:1 1 auto}
+  .tbox{flex:0 0 auto}
+
+  .board{grid-template-columns:1fr;gap:12px}
+  .card{padding:14px 14px 10px}
+  .q-text{font-size:.88rem;min-height:auto}
+  .box{width:34px;height:34px;font-size:1.1rem}
+
+  .inp-row{flex-direction:column}
+  .ok{width:100%}
+  .hint-row{gap:6px}
+  .skipbtn{width:100%}
+
+  .modal-report{padding:18px 14px!important}
+  .rpt-grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
+}
+
+@media(max-width:720px){
+  .board{grid-template-columns:1fr}
+}
