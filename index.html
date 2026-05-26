@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🎮 최가네 학당 🎮</title>
 <link href="https://fonts.googleapis.com/css2?family=Jua&family=Do+Hyeon&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20260526">
 </head>
 <body>
 <div class="toasts" id="toasts"></div>
 <div class="wrap">
   <header>
     <div class="logo">🎮 최가네 학당!! ✨ </em></div>
-    <div class="sub">국어 · 수학 · 역사 · 과학 · 스포츠 · 연예 · 일반상식 · 넌센스 · 공중도덕 · 운전면허 · 응급처치 · 어린이 · 남녀관계 · 밈·신조어 · 종합</div><div class="sub">최가네 학당!!! 제작 :$=리샤  퀴즈 문제 출제 : .AI  (오답 있을 수 있음 )
+    <div class="sub"><div class="sub">최가네 학당!!! 제작 :$=리샤  퀴즈 문제 출제 : .AI  (오답 있을 수 있음 )
   </header>
 
   <!-- 카테고리 -->
@@ -22,8 +22,15 @@
     <button class="pill" data-cat="math"          onclick="setCat('math',this)">🔢 수학</button>
     <button class="pill" data-cat="english"       onclick="setCat('english',this)">🇺🇸 영어</button>
     <button class="pill" data-cat="khistory"      onclick="setCat('khistory',this)">🏛 한국사</button>
-    <button class="pill" data-cat="whistory"      onclick="setCat('whistory',this)">  세계사</button>
+    <button class="pill" data-cat="whistory"      onclick="setCat('whistory',this)">🌍 세계사</button>
     <button class="pill" data-cat="geo"           onclick="setCat('geo',this)">🌐 나라 수도 국가</button>
+    <button class="pill" data-cat="idiom"         onclick="setCat('idiom',this)">🗣 속담·사자성어</button>
+    <button class="pill" data-cat="earth"         onclick="setCat('earth',this)">🌍 지구과학</button>
+    <button class="pill" data-cat="bio"           onclick="setCat('bio',this)">🧬 생물</button>
+    <button class="pill" data-cat="flower"        onclick="setCat('flower',this)">🌸 꽃말</button>
+    <button class="pill" data-cat="art"           onclick="setCat('art',this)">🎨 미술</button>
+    <button class="pill" data-cat="music"         onclick="setCat('music',this)">🎵 음악</button>
+    <button class="pill" data-cat="philo"         onclick="setCat('philo',this)">💭 철학·명언</button>
     <button class="pill" data-cat="movie"         onclick="setCat('movie',this)">🎬 영화·드라마</button>
     <button class="pill" data-cat="science"       onclick="setCat('science',this)">🔬 과학</button>
     <button class="pill" data-cat="elem"          onclick="setCat('elem',this)">🏫 초등기본</button>
@@ -87,11 +94,12 @@
   <div class="prog-wrap"><div class="prog-bar" id="prog"></div></div>
   <div class="board" id="board"></div>
 
-  <div class="ctrls">
-    <button class="cbtn" onclick="allHints()">💡 전체 힌트</button>
-    <button class="cbtn" onclick="allFirst()">🔤 첫글자 공개</button>
-    <button class="cbtn pri" onclick="newGame()">🔄 새 게임</button>
-  </div>
+</div>
+
+<div class="ctrls">
+  <button class="cbtn" onclick="allHints()">💡 전체 힌트</button>
+  <button class="cbtn" onclick="allFirst()">🔤 첫글자 공개</button>
+  <button class="cbtn pri" onclick="newGame()">🔄 새 게임</button>
 </div>
 
 <!-- 일반 라운드 결과 모달 -->
@@ -152,6 +160,6 @@
   </div>
 </div>
 
-<script src="script.js"></script>
+<script src="script.js?v=20260526"></script>
 </body>
 </html>
